@@ -8,4 +8,4 @@ AUTHOR:
 Shun
 
 DESCRIPTION:
-An byte-size project to see how background colours can be made responsive based on scroll distance.
+A byte-size project to see how background colours can be made responsive based on scroll distance.
