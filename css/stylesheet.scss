@@ -4,6 +4,7 @@ $color--black: #222222;
 $color--white: #FFFFFF;
 $color--blue: #00A5D5;
 $color--pink: #EE86A8;
+$color--yellow: #EED786;
 $font__sans-serif: "azo-sans-web", "helvetica", sans-serif;
 $font__sans-serif--weight--regular: 400;
 $font__sans-serif--weight--medium: 500;
@@ -24,14 +25,15 @@ $transition: 0.5s;
 
 /*************** xs < 768px (.container @ auto)  ***************/
 // STRUCTURE (xs)
-.background {
+#background {
 	height: 100vh;
 	min-height: 100vh;
 	min-width: 100%;
 	position: fixed;
 	width: 100%;
 	z-index: -10;
-	transition: 5.0s;
+	transition: 0.5s;
+	transition-timing-function: ease-out;
 }
 .section__block {
 	height: 100vh;
@@ -39,14 +41,17 @@ $transition: 0.5s;
 	min-width: 100vw;
 	width: 100vw;
 }
-.color--blue{
+.background__color--blue {
 	background-color: $color--blue;
 }
-.color--white{
-	background-color: $color--white;
-}
-.color--pink{
+.background__color--pink {
 	background-color: $color--pink;
+}
+.background__color--yellow {
+	background-color: $color--yellow;
+}
+.background__color--white {
+	background-color: $color--white;
 }
 
 
@@ -140,7 +145,7 @@ a {
 	padding: 0px;
 }
 .debug {
-	border: 5px dashed #FF0000 !important;
+	border: 1px dashed #FF0000 !important;
 }
 .debug--nullify {
 	border: 1px dashed #00C8FF !important;
