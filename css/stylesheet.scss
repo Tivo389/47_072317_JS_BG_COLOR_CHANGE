@@ -26,9 +26,6 @@ $transition: 0.5s;
 /*************** xs < 768px (.container @ auto)  ***************/
 
 // STRUCTURE (xs)
-html {
-	overflow: hidden;
-}
 #background {
 	
 	// FAIL
@@ -45,11 +42,9 @@ html {
 	// right: 0;
 	// bottom: 0;
 
-	height: 100vh;
-	min-height: 100vh;
-
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
+	height: 150%;
+	min-height: 150%;
+	bottom: -100px;
 
 	min-width: 100vw;
 	position: fixed;
