@@ -35,21 +35,21 @@ var debounceFunction = (function() {
 			
 
 			if (isScrolledIntoView($('#section__1')) === true) {
-				$('#background').addClass('background__color--blue');
+				$('.section__block').addClass('background__color--blue');
 			} else {
-				$('#background').removeClass('background__color--blue');
+				$('.section__block').removeClass('background__color--blue');
 			};
 
 			if (isScrolledIntoView($('#section__2')) === true) {
-				$('#background').addClass('background__color--pink');
+				$('.section__block').addClass('background__color--pink');
 			} else {
-				$('#background').removeClass('background__color--pink');
+				$('.section__block').removeClass('background__color--pink');
 			};
 
 			if (isScrolledIntoView($('#section__3')) === true) {
-				$(('#background')).addClass('background__color--yellow');
+				$('.section__block').addClass('background__color--yellow');
 			} else {
-				$(('#background')).removeClass('background__color--yellow');
+				$('.section__block').removeClass('background__color--yellow');
 			};
 
 		}, interval);
