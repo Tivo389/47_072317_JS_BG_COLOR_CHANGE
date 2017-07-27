@@ -25,6 +25,10 @@
 
 <p class="version">Ver.270717.10a</p>
 
+<!-- <div id="background" class="container-fluid background__color--blue"></div>-->
+<!-- I originally attempted to use the div element above with a fixed background, but this caused problems on touch devices. When the navbar dissappeared, there would be a "white space" that was caused by the absence of the navbar. The innerheight would only be updated after your finger is removed after the first scroll.-->
+<!-- By making each section__block class change color in sync with the next section, the same visual affect was achieved. This also removed the conflict between the fixed background and the navbar on touch devices. -->
+
 <div id="section__1" class="section__block background__color--blue">
 	<h1 class="center__vh--flex">As you scroll</h1>
 </div>

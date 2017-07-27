@@ -22,7 +22,7 @@ var debounceFunction = (function() {
 				// console.log(elementCenterVertical);
 				// console.log( (elementCenterVertical >= markerWindowTop) );
 				// console.log( (elementCenterVertical <= markerWindowBottom) );
-				console.log( (elementCenterVertical >= markerWindowTop) && (elementCenterVertical <= markerWindowBottom) );
+				// console.log( (elementCenterVertical >= markerWindowTop) && (elementCenterVertical <= markerWindowBottom) );
 
 				return ((elementCenterVertical >= markerWindowTop) && (elementCenterVertical <= markerWindowBottom));
 			}
@@ -61,7 +61,7 @@ window.addEventListener('scroll', debounceFunction);
 
 
 
-
+// This was the code used for the first version where I had a separate div element as a fixed background. In the second version I set the background of all the sections to change color which made the code below unnecessary.
 // var background = $('#background');
 
 // function resizeBackgroundForTouchDevice() {
