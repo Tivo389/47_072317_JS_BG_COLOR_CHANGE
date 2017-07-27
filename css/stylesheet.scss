@@ -27,11 +27,12 @@ $transition: 0.5s;
 
 // STRUCTURE (xs)
 #background {
-	height: 110vh;
-	min-height: 110vh;
+	height: 100vh;
+	min-height: 100vh;
 	min-width: 100%;
 	position: fixed;
-	top: -5vh;
+	top: 0;
+	bottom: -100px;
 	transition-timing-function: ease-out;
 	transition: 0.5s;
 	width: 100%;
