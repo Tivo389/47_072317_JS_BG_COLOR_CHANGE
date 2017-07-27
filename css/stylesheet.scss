@@ -28,9 +28,8 @@ $transition: 0.5s;
 // STRUCTURE (xs)
 #background {
 	// When both top and bottom are activated, the bottom band dissappears while the top remains.
-	// When the top is activated, the bottom band appears.
 	top: -30vh;
-	// bottom: -30vh;
+	bottom: -30vh;
 	height: 160vh;
 	min-width: 100vw;
 	position: fixed;
