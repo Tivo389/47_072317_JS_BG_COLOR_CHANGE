@@ -41,9 +41,12 @@ $transition: 0.5s;
 	// left: 0;
 	// right: 0;
 	// bottom: 0;
-	
+
 	height: 100vh;
 	min-height: 100vh;
+
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 
 	min-width: 100vw;
 	position: fixed;
