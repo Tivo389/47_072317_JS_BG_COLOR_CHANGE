@@ -32,10 +32,17 @@ $transition: 0.5s;
 	// top: 0;
 	// height: 5000px;
 	
+	// FAIL
+	// top: 0;
+	// bottom: -30vh;
+	// height: 130vh;
+
 	top: 0;
-	bottom: -30vh;
-	height: 130vh;
-	
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+
 	min-width: 100vw;
 	position: fixed;
 	transition-timing-function: ease-out;
