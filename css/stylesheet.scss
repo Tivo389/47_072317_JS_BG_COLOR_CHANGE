@@ -32,10 +32,11 @@ $transition: 0.5s;
 	min-width: 100%;
 	position: fixed;
 	top: 0;
+	transition-timing-function: ease-out;
+	transition: 0.5s;
+	transform: translate3d(0,0,0);
 	width: 100%;
 	z-index: -10;
-	transition: 0.5s;
-	transition-timing-function: ease-out;
 }
 .section__block {
 	height: 100vh;
