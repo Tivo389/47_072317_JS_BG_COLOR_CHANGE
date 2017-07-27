@@ -29,13 +29,9 @@ $transition: 0.5s;
 #background {
 	// When both top and bottom are activated, the bottom band dissappears while the top remains.
 	// When the top is activated, the bottom band appears.
-	// top: -30vh;
+	top: -30vh;
 	// bottom: -30vh;
-	// height: 160vh;
-	top: 0px;
-	// transform: translate3d(0,0,0);
-	height: auto;
-	min-height: 160vh;
+	height: 160vh;
 	min-width: 100vw;
 	position: fixed;
 	transition-timing-function: ease-out;
