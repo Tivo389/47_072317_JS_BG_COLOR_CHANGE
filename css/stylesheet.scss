@@ -26,6 +26,9 @@ $transition: 0.5s;
 /*************** xs < 768px (.container @ auto)  ***************/
 
 // STRUCTURE (xs)
+html {
+	overflow: hidden;
+}
 #background {
 	
 	// FAIL
