@@ -37,14 +37,16 @@ $transition: 0.5s;
 	// bottom: -30vh;
 	// height: 130vh;
 
-	// top: 0;
-	// left: 0;
-	// right: 0;
-	// bottom: 0;
+	// BAND ON TOP, NOT ON BOTTOM
+	// height: 150%;
+	// min-height: 150%;
+	// bottom: -100px;
 
 	height: 150%;
 	min-height: 150%;
-	bottom: -100px;
+	bottom: -25%;
+	top: -25%;
+
 
 	min-width: 100vw;
 	position: fixed;
