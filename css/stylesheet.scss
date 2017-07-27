@@ -38,9 +38,9 @@ $transition: 0.5s;
 	// height: 130vh;
 
 	// BAND ON TOP, NOT ON BOTTOM
-	// height: 150%;
-	// min-height: 150%;
-	// bottom: -100px;
+	height: 150%;
+	min-height: 150%;
+	bottom: -100px;
 
 	// BAND ON BOTTOM, NOT ON TOP
 	// height: 150%;
@@ -54,8 +54,9 @@ $transition: 0.5s;
 	// bottom: -100px;
 	// top: -100px;
 
-	height: 5000px;
-	bottom: -100px;
+	// BAND ON BOTTOM, NOT ON TOP
+	// height: 5000px;
+	// bottom: -100px;
 
 	min-width: 100vw;
 	position: fixed;

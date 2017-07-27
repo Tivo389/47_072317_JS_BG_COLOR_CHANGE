@@ -62,14 +62,14 @@ window.addEventListener('scroll', debounceFunction);
 
 
 
-// var background = $('#background');
+var background = $('#background');
 
-// function resizeBackgroundForTouchDevice() {
-// 	background.height( $(window).height() + 100 );
-// }
+function resizeBackgroundForTouchDevice() {
+	background.height( screen.height + 100 );
+}
 
-// $(window).resize(resizeBackgroundForTouchDevice);
-// resizeBackgroundForTouchDevice();
+$(window).resize(resizeBackgroundForTouchDevice);
+resizeBackgroundForTouchDevice();
 
 
 
