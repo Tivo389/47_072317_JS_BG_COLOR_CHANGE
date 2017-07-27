@@ -56,11 +56,21 @@ var debounceFunction = (function() {
 	};
 })();
 
-
-
-
-
 window.addEventListener('scroll', debounceFunction);
+
+
+
+
+
+var background = $('#background');
+
+function resizeBackgroundForTouchDevice() {
+	background.height( $(window).height() + 100 );
+}
+
+$(window).resize(resizeBackgroundForTouchDevice);
+resizeBackgroundForTouchDevice();
+
 
 
 
